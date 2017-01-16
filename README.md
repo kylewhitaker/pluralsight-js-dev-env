@@ -12,3 +12,10 @@ JavaScript Development Environment from Pluralsight Course with Cory House
 * Node Security Project
   * (sudo) npm install -g nsp
   * nsp check
+* Web Servers (only for Dev hosting)
+  * http-server
+  * live-server
+  * Express (*) (koa, hapi)
+  * budō
+  * Webpack Dev Server
+  * Browsersync (syncs across devices all at once!)
