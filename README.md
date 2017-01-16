@@ -46,3 +46,6 @@ JavaScript Development Environment from Pluralsight Course with Cory House
 * Automation
   * Grunt, Gulp, npm Scripts (*)
     * bit.ly/npmvsgulp
+* Transpiling
+  * "Compiling one language into another of similar abstraction"
+  * Babel (*), Typescript (JS superset), Elm (unique benefits)
