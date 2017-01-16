@@ -43,3 +43,6 @@ JavaScript Development Environment from Pluralsight Course with Cory House
     * publish on public URL
     1. npm install -g Surge
     2. Surge
+* Automation
+  * Grunt, Gulp, npm Scripts (*)
+    * bit.ly/npmvsgulp
