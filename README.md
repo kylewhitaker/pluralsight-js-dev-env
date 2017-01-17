@@ -49,3 +49,19 @@ JavaScript Development Environment from Pluralsight Course with Cory House
 * Transpiling
   * "Compiling one language into another of similar abstraction"
   * Babel (*), Typescript (JS superset), Elm (unique benefits)
+* Module formats
+  * IIFE, AMD, UMD, CommonJS, ES6 (*)
+* Bundling
+  * Browserify
+    * simple
+  * Webpack (*)
+    * comprehensive
+  * Rollup
+    * tree shaking, performance
+  * JSPM
+    * runtime loader, package manager
+* Debugging transpiled, bundled code
+  * Sourcemaps
+    * maps code back to original source
+    * part of our build
+    * downloaded if you open developer tools
