@@ -65,3 +65,23 @@ JavaScript Development Environment from Pluralsight Course with Cory House
     * maps code back to original source
     * part of our build
     * downloaded if you open developer tools
+* Linting
+  * Why? Enforce consistency, avoid mistakes
+  * JSLint, JSHint, ESLint (*), TSLine (Typescript)
+  * Core Decisions
+    * 1 - Config Format: dedicated file (*) vs. package.json
+    * 2 - Which Rules? check ESLint API for options
+    * 3 - Warnings vs Errors
+    * 4 - Which Plug-ins? github.com/dustinspecker/awesome-ESLint
+    * 5 - Use a preset? Custom steps 1-4, default preset step 5 only (recommended (*) vs. others like AirBnB)
+  * Issues
+    * ESLint does not watch files
+      * eslint-loader (re-lint on save)
+      * eslint-watch (*)
+        * wrapper that adds file watch to ESLint
+        * not tied to Webpack
+        * better warning/error messages
+    * ESLint does not support experimental JS
+      * babel-eslint: also lints stage 0-4 features
+  * Why lint during automation build?
+    * one place to check, universal config, part of continuous integration
