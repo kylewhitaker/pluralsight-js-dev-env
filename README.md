@@ -85,3 +85,23 @@ JavaScript Development Environment from Pluralsight Course with Cory House
       * babel-eslint: also lints stage 0-4 features
   * Why lint during automation build?
     * one place to check, universal config, part of continuous integration
+* Testing
+  * Unit Testing
+    * Framework
+      * Mocha (*), Jasmine, Tape, QUnit, Ava, Jest
+    * Assertion Libary
+      * Chai (*), Should.js, expect
+    * Helper Library
+      * JSDOM (*), Cheerio
+    * Where to run tests?
+      * Browser
+        * Karma, Testem
+      * Headless Browser
+        * PhantomJS
+      * In-Memory DOM
+        * JSDOM (*) --> Node
+    * Where to place tests?
+      * Centralized (separate tests folder)
+      * Alongside (*)
+    * When to run tests?
+      * When you hit save (*)
