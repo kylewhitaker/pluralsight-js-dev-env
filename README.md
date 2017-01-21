@@ -105,3 +105,9 @@ JavaScript Development Environment from Pluralsight Course with Cory House
       * Alongside (*)
     * When to run tests?
       * When you hit save (*)
+* Continous integration
+  * Travis (*) --> for Mac/Linux
+    * travisci.org
+  * Appveyor (*) --> for Windows
+    * appveyor.com
+  * Jenkins, circleci, semaphore, SnapCI
