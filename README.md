@@ -111,3 +111,51 @@ JavaScript Development Environment from Pluralsight Course with Cory House
   * Appveyor (*) --> for Windows
     * appveyor.com
   * Jenkins, circleci, semaphore, SnapCI
+* HTTP Calls & Mock API
+  * HTTP Call Approaches
+    * Node
+      * http, request (*)
+    * Browser
+      * XMLHttpRequest, jQuery ($AJAX), Framework-based (Angular), Fetch (*, need polyfill)
+    * Node & Browser
+      * isomorphic-fetch, xhr (npm), SuperAgent, Axios
+  * Why centralize API calls?
+    * Configure all calls in one place
+    * Handle preloader logic
+    * Handle Errors
+    * Single seam for mocking
+  * Why send polyfill to all browsers?
+    * selective? polyfill.io
+  * Why mock HTTP?
+    * Unit Testing
+    * Instant Response
+    * Keep working when services are down
+    * Rapid prototyping
+    * Avoid inter-team bottlenecks
+    * Work offline
+  * How to mock HTTP?
+    * Nock
+    * Static JSON
+    * Create development webserver
+      * api-mock
+      * JSON server
+      * JSON Schema faker
+      * Browsersync
+      * Express
+  * Our plan for mocking HTTP
+    * Declare Schema
+      * JSON Schema Faker
+    * Generate Random Data
+      * faker.js, randexp.js, chance.js
+    * Serve Data via API
+      * JSON Server
+  * Mocking Libraries
+    * JSON Schema (standard)
+      * json-schema.org
+    * JSON Schema Faker
+      * faker.js, chance.js, randexp.js
+        * github.com/Marak/faker.js/wiki
+        * marak.github.io/faker.js/index.html
+        * json-schema-faker.js.org
+  * Mock Demo
+    * bit.ly/ps-mock-data-schema
